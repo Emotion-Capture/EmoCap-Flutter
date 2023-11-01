@@ -1,0 +1,2 @@
+외부와 연결되기 위한 인터페이스
+Web API, Database, prefs 등
