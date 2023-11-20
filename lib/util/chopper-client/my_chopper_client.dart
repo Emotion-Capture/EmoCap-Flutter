@@ -17,6 +17,7 @@ class MyChopperClient {
       baseUrl: Uri.parse("http://--.---.---.--:----"),
       interceptors: [PrettyChopperLogger()],
       services: {
+        UserApiService.create(),
       },
       converter: const JsonConverter(),
     );
